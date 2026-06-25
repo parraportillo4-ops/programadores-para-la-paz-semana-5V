@@ -1,0 +1,5 @@
+La primera ruta http://localhost:3000 me indica que es funcional.
+La segunda ruta http://localhost:3000/saludo me indica que es funcional
+y me saluda.
+La tercera ruta http://localhost:3000/mensaje/juan es funcial, saluda a
+juan como hola juan.

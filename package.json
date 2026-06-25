@@ -1,0 +1,25 @@
+{
+  "name": "programadores-para-la-paz-semana-5v",
+  "version": "1.0.0",
+  "description": "programadores para la paz de jhon parra-Actividades semana 5 con visual",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parraportillo4-ops/programadores-para-la-paz-semana-5V.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/parraportillo4-ops/programadores-para-la-paz-semana-5V/issues"
+  },
+  "homepage": "https://github.com/parraportillo4-ops/programadores-para-la-paz-semana-5V#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

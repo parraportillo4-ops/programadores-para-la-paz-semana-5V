@@ -1,0 +1,22 @@
+app.post('/reporte', (req, res) => {
+  const mensaje = req.body.mensaje;
+  res.json({
+    estado: "Reporte recibido",
+    mensaje: mensaje
+  });
+});
+Qué hace esta ruta.
+Para qué podría servir en una aplicación comunitaria.
+
+La ruta POST /reporte recibe datos enviados desde el cliente 
+(por ejemplo, un formulario web) en el cuerpo de la petición 
+(req.body). Extrae específicamente el campo mensaje y devuelve una 
+respuesta en formato JSON con dos propiedades: estado (confirmando que 
+el reporte fue recibido) y mensaje (repitiendo el texto que el usuario 
+envió). Es un endpoint básico de ingreso de datos sin procesamiento 
+ni almacenamiento adicional.
+
+En una comunidad digital, esta ruta podría funcionar como un buzón de 
+reportes ciudadanos o canal de incidencias vecinales, esto fortalece la
+participación porque: agiliza la comunicación y simplifica el proceso
+para personas con poca experiencia digital.
